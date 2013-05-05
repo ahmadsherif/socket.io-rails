@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Socketio::Rails::VERSION
 
-  gem.add_dependency "railties", "~> 3.1", "< 5"
+  gem.add_dependency "railties", "~> 4.0.0.rc1"
 end
